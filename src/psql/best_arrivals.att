@@ -1,0 +1,3 @@
+best_arrivals.port_id none;
+best_arrivals.maxtime none;
+--WARNING: constraints have been computed directly from table data instance

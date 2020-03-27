@@ -1,0 +1,10 @@
+ship.ship_id exact;
+ship.latitude normal 150 1250;
+ship.longitude normal 150 1250;
+ship.max_speed range 20 80;
+ship.cargo rangeUnif 5 95;
+reachable_ports.port_id range 1.00 5.00;
+reachable_ports.ship_id range 0.00 61.00;
+reachable_ports.arrival range -1.73 2.35;
+feasible_ports.port_id range 1.00 2.00;
+feasible_ports.ship_id range 0.00 61.00;

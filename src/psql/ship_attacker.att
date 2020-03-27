@@ -1,0 +1,6 @@
+ship.ship_id exact;
+ship.latitude normal 150 1250;
+ship.longitude normal 150 1250;
+ship.max_speed range 20 80;
+ship.cargo rangeUnif 5 95;
+port.port_id exact;

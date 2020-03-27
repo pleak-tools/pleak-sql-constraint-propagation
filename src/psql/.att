@@ -1,0 +1,3 @@
+catcolor set 'black' 'white';
+catgender set 'female' 'male';
+cnt range 0.00 3.00;

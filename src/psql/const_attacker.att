@@ -1,0 +1,3 @@
+constr.x range 1 100;
+constr.y exact;
+constr.z range -1 1;

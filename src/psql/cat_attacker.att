@@ -1,0 +1,6 @@
+cat.gender setPrior ('male',0.5) ('female',0.5);
+cat.color set 'black' 'white';
+cat.available totalUnif 2;
+catfood.color total 2;
+catfood.price rangePrior 10 (20,1.0);
+cat.cat_id exact;

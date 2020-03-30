@@ -1,4 +1,4 @@
-# sql-constraint-propagation
+# Pleak SQL constraint-propagation
 
 This program is used to estimate the results of an SQL SELECT query given some approximate knowledge about table rows.
 

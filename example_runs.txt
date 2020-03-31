@@ -1,15 +1,15 @@
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 5 --connection dbname=banach --leak-mode if-exists -o output.att src/psql/ship_q1.sql src/psql/ship_q1_attacker.att src/psql/ship_q1_input_schema.sql src/psql/ship_q1_output_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 5 --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/ship_q1.sql src/psql/ship_q1_attacker.att src/psql/ship_q1_input_schema.sql src/psql/ship_q1_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection dbname=banach --leak-mode if-exists -o output.att src/psql/ship_q2.sql src/psql/ship_q2_attacker.att src/psql/ship_q2_input_schema.sql src/psql/ship_q2_output_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/ship_q2.sql src/psql/ship_q2_attacker.att src/psql/ship_q2_input_schema.sql src/psql/ship_q2_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection dbname=banach --leak-mode if-exists -o output.att src/psql/ship_q3.sql src/psql/ship_q3_attacker.att src/psql/ship_q3_input_schema.sql src/psql/ship_q3_output_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/ship_q3.sql src/psql/ship_q3_attacker.att src/psql/ship_q3_input_schema.sql src/psql/ship_q3_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection dbname=banach --leak-mode if-exists -o output.att src/psql/cat_select_query.sql src/psql/cat_attacker.att src/psql/cat_schema.sql src/psql/cat_select_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/cat_select_query.sql src/psql/cat_attacker.att src/psql/cat_input_schema.sql src/psql/cat_select_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection dbname=banach --leak-mode if-exists -o output.att src/psql/cat_group_query.sql src/psql/cat_attacker.att src/psql/cat_schema.sql src/psql/cat_group_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/cat_group_query.sql src/psql/cat_attacker.att src/psql/cat_input_schema.sql src/psql/cat_group_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection dbname=banach --leak-mode if-exists -o output.att src/psql/ship_query.sql src/psql/ship_attacker.att src/psql/ship_schema.sql src/psql/ship_count_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/ship_query.sql src/psql/ship_attacker.att src/psql/ship_schema.sql src/psql/ship_count_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 1000 --connection dbname=banach --leak-mode if-exists -o output.att src/psql/const_query.sql src/psql/const_attacker.att src/psql/const_schema.sql src/psql/const_output_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 1000 --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/const_query.sql src/psql/const_attacker.att src/psql/const_schema.sql src/psql/const_output_schema.sql
 
-./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 100 --connection dbname=banach --leak-mode if-exists -o output.att src/psql/test1.sql src/psql/const_attacker.att src/psql/test1_input_schema.sql src/psql/test1_output_schema.sql
+./dist/build/sql-constraint-propagation/sql-constraint-propagation --iterations 100 --connection "host=localhost dbname=ga_propagation user=ga_propagation password=ceec4eif7ya" --leak-mode if-exists -o output.att src/psql/test1.sql src/psql/const_attacker.att src/psql/test1_input_schema.sql src/psql/test1_output_schema.sql
